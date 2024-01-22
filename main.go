@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/godesde0/ejercicios"
 )
 
@@ -39,8 +37,5 @@ func main() {
 */
 
 func main() {
-	numero := ejercicios.IngresoPorTeclado()
-	for i := 0; i < 11; i++ {
-		fmt.Println(numero * i)
-	}
+	ejercicios.IngresoPorTeclado()
 }
