@@ -27,12 +27,20 @@ func main() {
 	}
 }
 */
-
+/*
 func main() {
 	switch numero, palabra := ejercicios.ConviertoString("130"); numero < 100 {
 	case true:
 		fmt.Println("es menor que 100")
 	default:
 		fmt.Println(palabra + " es mayor o igual a 100")
+	}
+}
+*/
+
+func main() {
+	numero := ejercicios.IngresoPorTeclado()
+	for i := 0; i < 11; i++ {
+		fmt.Println(numero * i)
 	}
 }
